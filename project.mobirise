@@ -1,0 +1,121 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "3.6.5",
+    "versionPublish": "3.6.5",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#000000",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Open Sans",
+        "subtitleFont": "Roboto",
+        "textFont": "Oxygen",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/caleb/OneDrive/Documents/GitHub/Caleb5701.git.io"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "easter eggs for days"
+        },
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#565656"
+            },
+            ".btn": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            }
+          },
+          "_name": "header6",
+          "_anchor": "index-header6-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-2000x1101-19.png",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#ccc",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "link": "https://www.youtube.com/channel/UCkdjSndrzHXj9oczqtzd8_g",
+              "size": "200",
+              "color": "",
+              "active": true,
+              "newWindow": false
+            }
+          },
+          "title": "My Destiny portfolio",
+          "text": "Heres my stats click the buttons",
+          "buttons": "           <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://destinytracker.com/destiny/overview/ps/caleb5701?utm_source=recent&amp;utm_medium=link&amp;utm_campaign=recent\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">STATS DESTINY TRACKER</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://guardian.gg/en/profile/2/caleb5701/14\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">STATS ELO</a>"
+        }
+      ]
+    }
+  }
+}
